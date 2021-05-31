@@ -1,6 +1,6 @@
 // mostly took this from the React docs
 import { Component } from "react";
-import { Linkm, Redirect } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 
 class ErrorBoundary extends Component {
   state = { hasError: false, redirect: false };
